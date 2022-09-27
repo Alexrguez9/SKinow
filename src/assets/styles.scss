@@ -1,0 +1,49 @@
+@import url('https://fonts.google.com/share?selection.family=Nixie%20One');
+
+$principal: rgb(45, 134, 45);
+$secundario: #151515;
+$blanco: #fff;
+$gris: #a5a5a5;
+$negro: black;
+$transparente: rgba(255, 255, 255, 0.2);
+
+
+.btn-transparent{
+
+}
+.btn-primary{
+
+}
+.btn-secondary{
+
+}
+
+.color-intermediate{
+    color: $principal;
+}
+.brand{
+    color: $secundario
+}
+.home{
+    color: $secundario;
+}
+.cool-link{
+	background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+	color: $negro;
+
+	margin: 0.7rem;
+	position: relative;
+	letter-spacing: 2px;
+}
+.cool-link:hover, .cool-link:focus {
+    background-size: 100% 2px;	
+    color: rgb(45, 134, 45);
+}
+
+@media only screen and (min-width: 962px){
+
+}
