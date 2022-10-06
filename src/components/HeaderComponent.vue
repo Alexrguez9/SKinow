@@ -53,13 +53,16 @@ header{
 	height: 100vh;
 	background-image: url(../assets/images/pexels-forest.jpeg);
 	background-size: cover;
-<<<<<<< Updated upstream
-=======
+
 	transition: all 1s;
 }
 nav{
 	width: 100%;
->>>>>>> Stashed changes
+  transition: all 1s;
+}
+nav{
+  position: fixed;
+  width: 100%;
 }
 
 .brand{
@@ -71,11 +74,7 @@ nav{
 }
 
 nav{
-<<<<<<< Updated upstream
-    padding-top: 25px;
-=======
-	padding-top: 25px;
->>>>>>> Stashed changes
+  padding-top: 25px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -93,7 +92,6 @@ nav ul li{
 }
 
 
-
 @keyframes slideIn{
 	from{
 	}
@@ -101,31 +99,6 @@ nav ul li{
 		transform: translateX(0);
 	}
 }
-/*
-nav ul li a::before, nav ul li a::after{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	left: 0;
-	transform: scaleX(0);
-	transition: all .5s;
-}
-nav ul li a:before{
-	top: 0;
-	transform-origin: left;
-}
-nav ul li a:after{
-	bottom:0;
-	transform-origin: right;
-}
-
-nav ul li a:hover::before, nav ul li a:hover::after{
-	transform: scaleX(1);
-}
-*/
-
-
 
 
 .center_title{
@@ -135,12 +108,10 @@ nav ul li a:hover::before, nav ul li a:hover::after{
 	text-align: center; 
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 45%;
 	transform: translateX(-50%) translateY(-50%);
 	text-transform: uppercase;
 }
-
-
 
 
 </style>

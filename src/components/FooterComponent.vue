@@ -11,6 +11,7 @@
                     <ul class="list-inline">
                         <li>
                             <a target="_blank" href="#" class="btn-social btn-outline">Instagram<i class="fa fa-fw fa-instagram"></i></a>
+                            <img src="../assets/images/icons/whatsapp.png" alt="whatsappIcon">
                         </li>
                         <li>
                             <a target="_blank" href="#" class="btn-social btn-outline">Facebook<i class="fa fa-fw fa-facebook"></i></a>

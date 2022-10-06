@@ -5,31 +5,22 @@
             <div class="flex-item">
                 <h3 class="title">Skis</h3>
                 <div class="info-container">
-<<<<<<< Updated upstream
-                    <router-link to="/snowboards" class="cool-link" active-class="active"><img src="../assets/images/snowboard.jpg" alt="Snowboard"></router-link>
-=======
+
                   <router-link to="/skis" active-class="active"><img src="../assets/images/ski.jpg" alt="Ski"></router-link>
->>>>>>> Stashed changes
+
+
                 </div>
             </div>
             <div class="flex-item">
                 <h3 class="title">Snowboards</h3>
                 <div class="info-container">
-<<<<<<< Updated upstream
-                    <img src="../assets/images/ski.jpg" alt="Ski">
-=======
                     <router-link to="/snowboards" active-class="active"><img src="../assets/images/snowboard.jpg" alt="Snowboard"></router-link>
->>>>>>> Stashed changes
                 </div>
             </div>
             <div class="flex-item">
                 <h3 class="title">Helmets</h3>
                 <div class="info-container">
-<<<<<<< Updated upstream
-                    <img src="../assets/images/lodging.jpg" alt="Lodging">
-=======
                   <router-link to="/helmets" active-class="active"><img src="../assets/images/helmet.jpg" alt="Helmets"></router-link>
->>>>>>> Stashed changes
                 </div>
             </div>
 
@@ -50,11 +41,11 @@ export default {
 <style  scoped>
 
 .section{
-	width: 100%;
-	background-color: #151515;
+    width: 100%;
+    background-color: #151515;
 }
 .flex-container{
-	max-width: 100%;
+    max-width: 100%;
     display: flex;
     /* justify-content: space-around; */
 }
@@ -65,32 +56,32 @@ export default {
 }
 
 .title{
-	font-family: gotham;
-	font-weight: lighter;
+    font-family: gotham;
+    font-weight: lighter;
     color: #fff;
     font-size: 70px;
     padding-bottom: 40px;
     text-align: center;
 }
-
+/*
 .info-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-}
-.text{	
+
+}*/
+.text{
     font-family: gotham;
-	font-weight: lighter;
+    font-weight: lighter;
     color: #fff;
     font-size: 14px;
     padding-right: 30px;
-	text-align: center;
+    text-align: center;
     text-justify: inter-word;
 }
 img{
-	width: 50%;
-	border-radius: 20px;
+    width: 50%;
+    border-radius: 20px;
     object-fit: cover;
     transition: 0.7s;
 }
@@ -99,7 +90,11 @@ img:hover{
     width: 70%;
     transition: 0.7s;
 }
-
+a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /*
 .shadow{

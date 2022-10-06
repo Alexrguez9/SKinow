@@ -10,13 +10,11 @@ import AboutComponent from './components/AboutComponent'
 import HomeComponent from './components/HomeComponent'
 import FestivalComponent from './components/FestivalComponent'
 import SnowboardComponent from './components/SnowboardComponent'
-<<<<<<< Updated upstream
-=======
+
 import SkisComponent from './components/SkisComponent'
 import LodgingComponent from './components/LodgingComponent'
 import HelmetsComponent from './components/HelmetsComponent'
 
->>>>>>> Stashed changes
 
 /* FALLA: BUG
 import ErrorComponent from './components/ErrorComponent.vue';
@@ -31,12 +29,10 @@ const routes = [
     { path: '/destinations', name: 'destinations', component: DestinationsComponent },
     { path: '/festival', component: FestivalComponent },
     { path: '/snowboards', component: SnowboardComponent},
-<<<<<<< Updated upstream
-=======
     { path: '/skis', component: SkisComponent},
     { path: '/lodging', component: LodgingComponent},
     { path: '/helmets', component: HelmetsComponent},
->>>>>>> Stashed changes
+
     /* FALLA: BUG
     { path: '*', component: ErrorComponent },
     */
@@ -54,3 +50,17 @@ const app = createApp(App)
 app.use(router)
 
 app.mount('#app')
+
+createApp().directive('scroll', {
+    inserted: function(el, binding) {
+        let f = function(evt) {
+            if (binding.value(evt, el)) {
+                window.removeEventListener('scroll', f);
+            }
+        };
+        window.addEventListener('scroll', f);
+    },
+});
+
+
+
