@@ -53,6 +53,13 @@ header{
 	height: 100vh;
 	background-image: url(../assets/images/pexels-forest.jpeg);
 	background-size: cover;
+<<<<<<< Updated upstream
+=======
+	transition: all 1s;
+}
+nav{
+	width: 100%;
+>>>>>>> Stashed changes
 }
 
 .brand{
@@ -64,7 +71,11 @@ header{
 }
 
 nav{
+<<<<<<< Updated upstream
     padding-top: 25px;
+=======
+	padding-top: 25px;
+>>>>>>> Stashed changes
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

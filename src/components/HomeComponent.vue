@@ -3,21 +3,33 @@
         
         <div class="flex-container">
             <div class="flex-item">
-                <h3 class="title">Snowboard</h3>
+                <h3 class="title">Skis</h3>
                 <div class="info-container">
+<<<<<<< Updated upstream
                     <router-link to="/snowboards" class="cool-link" active-class="active"><img src="../assets/images/snowboard.jpg" alt="Snowboard"></router-link>
+=======
+                  <router-link to="/skis" active-class="active"><img src="../assets/images/ski.jpg" alt="Ski"></router-link>
+>>>>>>> Stashed changes
                 </div>
             </div>
             <div class="flex-item">
-                <h3 class="title">Ski</h3>
+                <h3 class="title">Snowboards</h3>
                 <div class="info-container">
+<<<<<<< Updated upstream
                     <img src="../assets/images/ski.jpg" alt="Ski">
+=======
+                    <router-link to="/snowboards" active-class="active"><img src="../assets/images/snowboard.jpg" alt="Snowboard"></router-link>
+>>>>>>> Stashed changes
                 </div>
             </div>
             <div class="flex-item">
-                <h3 class="title">Lodging</h3>
+                <h3 class="title">Helmets</h3>
                 <div class="info-container">
+<<<<<<< Updated upstream
                     <img src="../assets/images/lodging.jpg" alt="Lodging">
+=======
+                  <router-link to="/helmets" active-class="active"><img src="../assets/images/helmet.jpg" alt="Helmets"></router-link>
+>>>>>>> Stashed changes
                 </div>
             </div>
 
