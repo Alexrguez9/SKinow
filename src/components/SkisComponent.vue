@@ -1,28 +1,30 @@
 <template>
+    
     <div class="section">
-
+        
         <div class="flex-container">
             <div class="flex-item">
-                <h3 class="sub-title">Snowboards</h3>
+                <h3 class="sub-title">Skis</h3>
                 <div class="info-container">
-                  <router-link to="/snowboards" active-class="active"><img src="../assets/images/snowboard.jpg" alt="Snowboards"></router-link>
+                  <router-link to="/skis" active-class="active"><img src="../assets/images/skis.avif" alt="Skis"></router-link>
                 </div>
             </div>
             <div class="flex-item">
-                <h3 class="sub-title">Snowboard Bindings</h3>
+                <h3 class="sub-title">Ski Bindings</h3>
                 <div class="info-container">
-                    <router-link to="/snowboards" active-class="active"><img src="../assets/images/glasses.jpg" alt="Snowboard Bindings"></router-link>
+                    <router-link to="/skis" active-class="active"><img src="../assets/images/glasses.jpg" alt="Snowboard"></router-link>
                 </div>
             </div>
             <div class="flex-item">
-                <h3 class="sub-title">Snowboard Boots</h3>
+                <h3 class="sub-title">Ski Boots</h3>
                 <div class="info-container">
-                  <router-link to="/snowboards" active-class="active"><img src="../assets/images/snowboardBoots.webp" alt="Snowboard Boots"></router-link>
+                  <router-link to="/skis" active-class="active"><img src="../assets/images/skiBoots2.jpg" alt="Lodging"></router-link>
                 </div>
             </div>
 
         </div>
     
+        
     </div> 
 </template>
 <style lang="scss">

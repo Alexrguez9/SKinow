@@ -53,6 +53,11 @@ header{
 	height: 100vh;
 	background-image: url(../assets/images/pexels-forest.jpeg);
 	background-size: cover;
+
+	transition: all 1s;
+}
+nav{
+	width: 100%;
   transition: all 1s;
 }
 nav{

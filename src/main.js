@@ -10,15 +10,18 @@ import AboutComponent from './components/AboutComponent'
 import HomeComponent from './components/HomeComponent'
 import FestivalComponent from './components/FestivalComponent'
 import SnowboardComponent from './components/SnowboardComponent'
-import SkiComponent from './components/SkiComponent'
+
+import SkisComponent from './components/SkisComponent'
 import LodgingComponent from './components/LodgingComponent'
+import HelmetsComponent from './components/HelmetsComponent'
+
 
 /* FALLA: BUG
 import ErrorComponent from './components/ErrorComponent.vue';
 */
 
 const routes = [
-    { path: '/', component: Pagina2Component },
+    { path: '/', component: HomeComponent },
     { path: '/home', name: "home", component: HomeComponent },
     { path: '/portada', name: "portada", component: PortadaComponent },
     { path: '/pagina2', component: Pagina2Component },
@@ -26,8 +29,10 @@ const routes = [
     { path: '/destinations', name: 'destinations', component: DestinationsComponent },
     { path: '/festival', component: FestivalComponent },
     { path: '/snowboards', component: SnowboardComponent},
-    { path: '/ski', component: SkiComponent},
+    { path: '/skis', component: SkisComponent},
     { path: '/lodging', component: LodgingComponent},
+    { path: '/helmets', component: HelmetsComponent},
+
     /* FALLA: BUG
     { path: '*', component: ErrorComponent },
     */
