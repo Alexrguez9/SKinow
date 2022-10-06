@@ -8,15 +8,9 @@ $negro: black;
 $transparente: rgba(255, 255, 255, 0.2);
 
 
-.btn-transparent{
-
-}
-.btn-primary{
-
-}
-.btn-secondary{
-
-}
+.btn-transparent{}
+.btn-primary{}
+.btn-secondary{}
 
 .color-intermediate{
     color: $principal;
@@ -43,6 +37,15 @@ $transparente: rgba(255, 255, 255, 0.2);
     background-size: 100% 2px;	
     color: rgb(45, 134, 45);
 }
+
+.page-title{
+    color: white;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 90px;
+}
+
+
 
 @media only screen and (min-width: 962px){
 
